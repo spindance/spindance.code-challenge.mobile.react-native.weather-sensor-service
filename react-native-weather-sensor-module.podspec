@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "10.0" }
   s.source       = { :git => "https://github.com/spindance.code-challenge.mobile.react-native.weather-sensor-service-package/tree/develop.git", :tag => "#{s.version}" }
 
-  # s.exclude_files = "ios/**/Tests/*.swift"
   s.source_files = ['ios/', 'ios/spindance.code-challenge.mobile.ios.weather-sensor-service-package/Sources/WeatherSensorService/**/*.swift']
   s.dependency "React-Core"
 

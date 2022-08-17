@@ -6,14 +6,14 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo managed workflow\n';
 
-const WeatherSensorModule = NativeModules.WeatherSensorModule ? NativeModules.WeatherSensorModule  : new Proxy(
-      {},
-      {
-        get() {
-          throw new Error(LINKING_ERROR);
-        },
-      }
-    );
+const WeatherSensorModule = NativeModules.WeatherSensorModule ? NativeModules.WeatherSensorModule : new Proxy(
+  {},
+  {
+    get() {
+      throw new Error(LINKING_ERROR);
+    },
+  }
+);
 const emitter = new NativeEventEmitter(NativeModules.WeatherSensorModule)
 
 
