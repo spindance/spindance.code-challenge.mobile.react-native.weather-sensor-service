@@ -26,7 +26,7 @@ function collectReadings(): void {
 }
 
 /**
- * Emits values on the event name "readings"
+ * Emits values on the event name "reading"
  * @returns NativeEventEmitter
  */
 export function sensorReadings(): NativeEventEmitter {
