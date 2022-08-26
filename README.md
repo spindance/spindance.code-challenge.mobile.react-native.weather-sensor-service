@@ -1,5 +1,5 @@
-# react-native-weather-sensor-module
-react-native wrapper of native weather sensor generation libraries
+# spindance.code-challenge.mobile.react-native.weather-sensor-service
+React Native wrapper of native weather sensor generation libraries
 ## Installation
 You will need to publish the library locally using yalc
 
@@ -9,5 +9,3 @@ You will need to publish the library locally using yalc
 4. Add to your your project: 
   1. `yalc add react-native-weather-sensor-module`
   2. `npm install`
-
-
